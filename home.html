@@ -16,6 +16,19 @@
                 }
             }
         </script>
+        <style type="text/tailwindcss">
+            .navLinks-lg {
+                @apply text-lg hover:font-bold my-auto;
+            }
+
+            .navLinks-md {
+                @apply text-lg hover:font-bold my-auto py-3;
+            }
+
+            .feeds-post-div {
+                @apply flex border border-transparent border-b-black hover:bg-hoverBlue;
+            }
+        </style>
         <style>
             #i{
                 color: #eaf3ffd3;
@@ -29,11 +42,11 @@
             <a href="#" class="font-bold text-4xl">PhysCom</a>
         </div>
         <div class="hidden lg:flex w-9/12 gap-10 justify-center">
-            <span class="text-lg hover:font-bold my-auto"><a href="#">Home</a></span>
-            <span class="text-lg hover:font-bold my-auto"><a href="#">Community</a></span>
-            <span class="text-lg hover:font-bold my-auto"><a href="#">Discussion Room</a></span>
-            <span class="text-lg hover:font-bold my-auto"><a href="#">Events</a></span>
-            <span class="text-lg hover:font-bold my-auto"><a href="#">Sign Up</a></span>
+            <span class="navLinks-lg"><a href="#">Home</a></span>
+            <span class="navLinks-lg"><a href="#">Community</a></span>
+            <span class="navLinks-lg"><a href="#">Discussion Room</a></span>
+            <span class="navLinks-lg"><a href="#">Events</a></span>
+            <span class="navLinks-lg"><a href="#">Sign Up</a></span>
         </div>
         <div class="lg:hidden ms-auto my-auto">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-9">
@@ -43,15 +56,15 @@
         </div>
     </div>
     <div class="hidden grid lg:hidden p-5 bg-blue-100 text-blue-900 w-8/12">
-        <span class="text-lg hover:font-bold my-auto py-3"><a class="w-full" href="#">Home</a></span>
-        <span class="text-lg hover:font-bold my-auto py-3"><a class="w-full" href="#">Community</a></span>
-        <span class="text-lg hover:font-bold my-auto py-3"><a class="w-full" href="#">Discussion Room</a></span>
-        <span class="text-lg hover:font-bold my-auto py-3"><a class="w-full" href="#">Events</a></span>
-        <span class="text-lg hover:font-bold my-auto py-3"><a class="w-full" href="#">Sign Up</a></span>
+        <span class="navLinks-md"><a class="w-full" href="#">Home</a></span>
+        <span class="navLinks-md"><a class="w-full" href="#">Community</a></span>
+        <span class="navLinks-md"><a class="w-full" href="#">Discussion Room</a></span>
+        <span class="navLinks-md"><a class="w-full" href="#">Events</a></span>
+        <span class="navLinks-md"><a class="w-full" href="#">Sign Up</a></span>
     </div>
 
     <div id="pageContent" class="md:w-3/4 lg:w-1/2 mx-auto pt-20">
-        <div class="flex border border-transparent border-b-black hover:bg-hoverBlue">
+        <div class="feeds-post-div">
             <div class="container w-2/12 p-5">
                 <img class="w-20 h-auto" src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?size=338&ext=jpg&ga=GA1.1.1141335507.1719100800&semt=sph" alt="logo">
             </div>
@@ -87,7 +100,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex border border-transparent border-b-black hover:bg-hoverBlue">
+        <div class="feeds-post-div">
             <div class="container w-2/12 p-5">
                 <img class="w-20 h-auto" src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?size=338&ext=jpg&ga=GA1.1.1141335507.1719100800&semt=sph" alt="logo">
             </div>
@@ -123,7 +136,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex border border-transparent border-b-black hover:bg-hoverBlue">
+        <div class="feeds-post-div">
             <div class="container w-2/12 p-5">
                 <img class="w-20 h-auto" src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?size=338&ext=jpg&ga=GA1.1.1141335507.1719100800&semt=sph" alt="logo">
             </div>
@@ -159,7 +172,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex border border-transparent border-b-black hover:bg-hoverBlue">
+        <div class="feeds-post-div">
             <div class="container w-2/12 p-5">
                 <img class="w-20 h-auto" src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?size=338&ext=jpg&ga=GA1.1.1141335507.1719100800&semt=sph" alt="logo">
             </div>
@@ -195,7 +208,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex border border-transparent border-b-black hover:bg-hoverBlue">
+        <div class="feeds-post-div">
             <div class="container w-2/12 p-5">
                 <img class="w-20 h-auto" src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?size=338&ext=jpg&ga=GA1.1.1141335507.1719100800&semt=sph" alt="logo">
             </div>
@@ -231,7 +244,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex border border-transparent border-b-black hover:bg-hoverBlue">
+        <div class="feeds-post-div">
             <div class="container w-2/12 p-5">
                 <img class="w-20 h-auto" src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?size=338&ext=jpg&ga=GA1.1.1141335507.1719100800&semt=sph" alt="logo">
             </div>
@@ -267,7 +280,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex border border-transparent border-b-black hover:bg-hoverBlue">
+        <div class="feeds-post-div">
             <div class="container w-2/12 p-5">
                 <img class="w-20 h-auto" src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?size=338&ext=jpg&ga=GA1.1.1141335507.1719100800&semt=sph" alt="logo">
             </div>
@@ -303,7 +316,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex border border-transparent border-b-black hover:bg-hoverBlue">
+        <div class="feeds-post-div">
             <div class="container w-2/12 p-5">
                 <img class="w-20 h-auto" src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?size=338&ext=jpg&ga=GA1.1.1141335507.1719100800&semt=sph" alt="logo">
             </div>
@@ -339,7 +352,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex border border-transparent border-b-black hover:bg-hoverBlue">
+        <div class="feeds-post-div">
             <div class="container w-2/12 p-5">
                 <img class="w-20 h-auto" src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?size=338&ext=jpg&ga=GA1.1.1141335507.1719100800&semt=sph" alt="logo">
             </div>
@@ -375,7 +388,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex border border-transparent border-b-black hover:bg-hoverBlue">
+        <div class="feeds-post-div">
             <div class="container w-2/12 p-5">
                 <img class="w-20 h-auto" src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?size=338&ext=jpg&ga=GA1.1.1141335507.1719100800&semt=sph" alt="logo">
             </div>
@@ -411,7 +424,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex border border-transparent border-b-black hover:bg-hoverBlue">
+        <div class="feeds-post-div">
             <div class="container w-2/12 p-5">
                 <img class="w-20 h-auto" src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?size=338&ext=jpg&ga=GA1.1.1141335507.1719100800&semt=sph" alt="logo">
             </div>
